@@ -30,7 +30,10 @@ body, html {
 .container .rightSection{
     width: 50vw;
     height: 100vh;
-    background: #000;   
+    background: #000; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
 }
 
 
@@ -45,8 +48,8 @@ body, html {
     top: 70%;
     left: 10%;
     color: #fff;
-    font-family: Roboto;
-    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
     font-style: normal;
     font-weight: 900;
     line-height: 141.688%; /* 77.928px */
@@ -56,33 +59,123 @@ body, html {
 .container .rightSection .logo h1{
     color: #72DB73;
     font-family: 'Single Day', cursive;
-    font-size: 55px;
+    font-size: 39px;
     font-style: normal;
     font-weight: 400;
     line-height: 139.688%; /* 93.591px */
     text-align: center;
+    margin-top: 50px;
 }
 
 .container .rightSection .someText{
     color: #FFF;
     font-family: 'DM Sans', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 139.688%; /* 34.922px */
+    font-weight: 300;
+    /* line-height: 139.688%;  */
     text-align: center;
-    margin-bottom: 5%;
-}
-
-
-.formData div{
-    margin-bottom: 3%;
-    margin-left: 22%;
+    margin-top: 5px;
+    margin-bottom: 4%;
 }
 
 input{
     width: 70%;
-    height: 50px;
+    height: 37px;
     border-radius: 3.816px;
     background: #292929;
+    padding: 12px;
 }
+
+.formData div{
+    margin-bottom: 2%;
+    margin-left: 22%;
+}
+
+
+.container .rightSection .formData .checkboxClass{
+    width: 53%;
+    height: 25px;
+    display: flex;
+    position: relative;
+}
+
+.container .rightSection .formData .checkboxClass div{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.container .rightSection .formData .checkboxClass p{
+    color: #7C7C7C;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%; /* 27.984px */
+    letter-spacing: 0.401px;
+    margin-left: 17px;
+}
+
+.checkboxDesign{
+    width: 15px;
+    height: 15px;
+    background: #D9D9D9;
+    position: absolute;
+    top: 10px;
+
+}
+
+.container .rightSection .buttonClass {
+    width: 55%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 22%;
+    border-radius: 28px;
+    background: #72DB73;
+  }
+  
+  .container .rightSection .buttonClass button{
+    border: none;
+    background-color: transparent;
+  }
+  .container .rightSection .buttonClass button h1 {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 108.688%;
+    letter-spacing: 0.58px;
+    text-align: center;
+  }
+
+  .container .rightSection .tAndC, 
+  .container .rightSection .privacyPolicy{
+    width: 59%;
+    height: 8%;
+    margin-bottom: 3%;
+    margin-left: 22%;
+    display: flex;
+  }
+
+  .container .rightSection .tAndC{
+    margin-bottom: 3px;
+  }
+
+
+  .container .rightSection .tAndC p,
+  .container .rightSection .privacyPolicy p{
+    color: #7C7C7C;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 141.7%; /* 25.506px */
+    letter-spacing: 0.36px;
+  }
+  
