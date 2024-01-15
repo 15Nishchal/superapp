@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    overflow: hidden;
+    height: 100%;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+
+.container .leftSection{
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+}
+
+.container .rightSection{
+    width: 50vw;
+    height: 100vh;
+    background: #000;   
+}
+
+
+.container .leftSection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .leftSection h1 {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 141.688%; /* 77.928px */
+    letter-spacing: 1.1px;
+}
+
+.container .rightSection .logo h1{
+    color: #72DB73;
+    font-family: 'Single Day', cursive;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%; /* 93.591px */
+    text-align: center;
+}
+
+.container .rightSection .someText{
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.688%; /* 34.922px */
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.formData div{
+    margin-bottom: 3%;
+    margin-left: 22%;
+}
+
+input{
+    width: 70%;
+    height: 50px;
+    border-radius: 3.816px;
+    background: #292929;
+}
